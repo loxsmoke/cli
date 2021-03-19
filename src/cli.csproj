@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>LoxSmoke.Cli</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>LoxSmoke.cli</PackageId>
+    <Company>LoxSmoke</Company>
+    <Product>Cli</Product>
+    <Copyright>Copyright (C) 2021 LoxSmoke</Copyright>
+    <PackageProjectUrl>https://github.com/loxsmoke/cli</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/loxsmoke/cli</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>command line parser cli commandline loxsmoke</PackageTags>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>cli</ToolCommandName>
+    <Description>Command line parser generator</Description>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>cli.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>cli.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Humanizer" Version="2.8.26" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>

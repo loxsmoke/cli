@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "cmdGen": {
+      "commandName": "Project",
+      "commandLineArgs": "inline \"<assembly> [-o|--output <output_md>] [-f|--format <format>] [-r|--recursive [<ref_assembly...>]] [-m|--ignore-methods] [-d|--method-details] [-a|--ignore-attribute <attribute...>] [-t|--type <name>] [-s|--msdn [<view>]] [-i|--title <title_string>] [-n|--no-title] [-v|--verbose]\"",
+      "workingDirectory": "C:\\dev\\cli-private\\build"
+    }
+  }
+}
