@@ -1,3 +1,5 @@
+[![NuGet version](https://badge.fury.io/nu/LoxSmoke.cli.svg)](https://badge.fury.io/nu/LoxSmoke.mddox) [![NuGet](https://img.shields.io/nuget/dt/LoxSmoke.cli.svg)](https://www.nuget.org/packages/LoxSmoke.cli) 
+
 # cli
 
 CLI is the .net tool that generates command line parsing classes used by 
