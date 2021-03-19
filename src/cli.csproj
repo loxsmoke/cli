@@ -19,6 +19,7 @@
     <AssemblyVersion>0.0.1.0</AssemblyVersion>
     <FileVersion>0.0.1.0</FileVersion>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>cli.xml</DocumentationFile>
@@ -32,5 +33,11 @@
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
     <PackageReference Include="Humanizer" Version="2.8.26" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
